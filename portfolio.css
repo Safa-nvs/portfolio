@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 79px;
+
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+    
+    
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.home-content{
+    margin:40px 40px 40px 40px;
+    
+    
+}
+.uname{
+    padding-bottom: 40px;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;       
+}
+#lname{
+    color:red;
+    font-family: "Pattaya", sans-serif;
+}
+.para1{
+   
+    font-size: 20px;
+    font-family: "Bree Serif", serif;
+    line-height: 2;
+    margin-bottom: 60px;
+}    
+.button{
+    text-decoration: none;
+    border: solid black 2px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    padding:10px;
+}
+.home-image{
+    width: 45%;
+    height: 79%;
+    position: absolute;
+    bottom: 0;
+    right:30px;
+   
+}
+#shape{
+    width: 500px;
+    height: 450px;
+   
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    
+    
+}
+.links:hover{
+    color:rebeccapurple;
+    text-decoration: underline;
+}
+.home-image:hover #girl{
+    left: 10px;
+}
+.home-image:hover #shape{
+    bottom: 20px;
+}
+#section2{
+    width: 100%;
+    height: 798px;
+}
+.about{
+    text-align: center;
+    margin-top: 241px;
+    margin-left: 200px;  
+}
+.main-head{
+    font-family: "Lobster", sans-serif;
+    font-size:45px;
+}
+.sub-head{
+    font-family: "Oleo Script", system-ui;
+    color: green;
+    font-size:30px;
+}
+.image-part{
+    width:100%;
+    
+}
+.image2{
+    
+    position: absolute;
+}
+.girl2{
+    width: 512px;
+    height: 438px;
+}
+.contact-info{
+    width: 52%;
+    position: absolute;
+    right:20px;
+    padding-top: 20px;
+}
+#head-top{
+    margin-top: 46px;
+}
+.skills{
+    text-align: center;
+     margin-top: 33px;
+    margin-left: 200px; 
+}
+#para2{
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.image3{    
+}
+.girl3{
+    width: 529px;
+    margin-top:10px;   
+}
+.skill-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    margin-top: 47px;
+    margin-left:80px; 
+    align-items: center;   
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+.bar-head,.bar-percent{
+    font-size: 20px;
+    font-weight: bold;   
+}
+.base-bar{
+    width:100%;
+    height:0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom:0;
+}
+.html-bar{
+    width:93%;
+    background-color: rgb(134, 134, 13);
+   
+}
+.css-bar{
+    width:90%;
+    background-color: rgb(134, 134, 13);
+    
+   
+}
+.bootstrap{
+    width:79%;
+    background-color: rgb(134, 134, 13);
+    
+    
+}
+.java-script{
+    width:79%;
+    background-color: rgb(134, 134, 13);
+}
+.icon-section{
+    
+    display: flex;
+    
+    justify-content: center;
+    
+}
+#section4{
+    margin:8%;
+    margin-left: 30px;
+   
+}
+.icon{
+   
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color:rgb(191, 144, 57);
+    
+
+}
+.icon:hover{
+    background-image: linear-gradient(red,yellow);
+}
+.icon-section{
+    margin-left: 211px;
+    margin-top: 40px;
+}
+.brand{
+    color:black;
+}
+.brand:hover{
+    color:white;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.up-arrow{
+    float: left;
+    margin: -400px 30px;
+}
